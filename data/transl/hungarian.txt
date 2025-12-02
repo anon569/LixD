@@ -9,87 +9,87 @@
 // mainNameOfLanguage: This is how your translated language appears in the
 // options dialogue. Translate this to your language ("Deutsch" or "Français"),
 // don't have your language's name in English (don't put "German" or "French")
-$mainNameOfLanguage English
+$mainNameOfLanguage Magyar
 
 // Printing of current version in the main menu
-$versioningVersion Version
-$versioningForOperatingSystem for
+$versioningVersion Verzió
+$versioningForOperatingSystem rendszeren
 
 // used in various dialogues
-$commonOk Okay
-$commonCancel Cancel
-$commonBack Back
-$commonExit Exit
+$commonOk OK
+$commonCancel Mégse
+$commonBack Vissza
+$commonExit Kilépés
 
-$mainMenuGetMusic Extract the music into Lix's directory:
+$mainMenuGetMusic Zene kicsomagolása a Lix mappájába:
 
 // level browsers
-$browserSingleTitle Single Player|From the main menu, go to the singleplayer browser.
-$browserNetworkTitle Select Multiplayer level
-$browserPlay Play
-$browserEdit Edit
-$browserNewLevel Create Level
-$browserDelete Delete
-$browserSearch Search
-$browserOpenRepForLev Load Replay
-$browserExportImage Export Image
-$browserExportImageDone Exported to:
-$browserMkdirTitle Create Folder
-$browserMkdirPleaseEnter Name of new folder:
+$browserSingleTitle Egyjátékos|A főmenüből nyisd meg az egyjátékos böngészőt.
+$browserNetworkTitle Többjátékos pálya kiválasztása
+$browserPlay Játék
+$browserEdit Szerkesztés
+$browserNewLevel Pálya létrehozása
+$browserDelete Törlés
+$browserSearch Keresés
+$browserOpenRepForLev Visszajátszás betöltése
+$browserExportImage Kép exportálása
+$browserExportImageDone Exportálva ide:
+$browserMkdirTitle Mappa létrehozása
+$browserMkdirPleaseEnter Új mappa neve:
 
-$browserReplayTitle Replays|From the main menu, go to the replay browser.
-$browserReplayPointedTo Pointed-to level
-$browserReplayVerifyDir Verify directory
+$browserReplayTitle Visszajátszások|A főmenüből nyisd meg a visszajátszás-böngészőt.
+$browserReplayPointedTo Hivatkozott pálya
+$browserReplayVerifyDir Könyvtár ellenőrzése
 
-$winVerifyTitle Replay Verifier
-$winVerifyOutputWrittenTo Output written to “%s”. Click to return.
-$verifyHeader Result,Replay,Level,Player,Saved,Required,Skills,Ticks
-$verifyStatisticsFrom Statistics from %d replays:
-$verifyTrophiesUpdated %d trophies for %s updated.
-$verifyLevelsNoProof These %d levels have no proof:
-$verifyDirectoryCoverage Directory coverage:
-$verifyAllLevelsCovered All %d levels are solvable.
-$verifySomeLevelsCovered %d of %d levels are solvable, %d may be unsolvable.
-$verifyStatusMultiplayer Replay ignored, it is multiplayer.
-$verifyStatusNoPointer Replay doesn't name a level file.
-$verifyStatusMissingLevel Replay points to a nonexistant level.
-$verifyStatusBadLevel Replay points to a malformed level.
-$verifyStatusFailed Replay doesn't solve the pointed-to level.
-$verifyStatusMercyKilled Replay ran over %d minutes after final skill.
-$verifyStatusSolved Replay solves the pointed-to level.
+$winVerifyTitle Visszajátszás-ellenőrző
+$winVerifyOutputWrittenTo Kimenet mentve ide: „%s”. Kattints a visszatéréshez.
+$verifyHeader Eredmény,Visszajátszás,Pálya,Játékos,Megmentve,Szükséges,Képességek,Tickek
+$verifyStatisticsFrom Statisztikák %d visszajátszásból:
+$verifyTrophiesUpdated %d trófea frissítve %s esetében.
+$verifyLevelsNoProof Ezeknek a %d pályának nincs igazolt megoldása:
+$verifyDirectoryCoverage Könyvtár lefedettsége:
+$verifyAllLevelsCovered Mind a(z) %d pálya megoldható.
+$verifySomeLevelsCovered %d a(z) %d pályából megoldható; %d lehet, hogy nem.
+$verifyStatusMultiplayer A visszajátszás figyelmen kívül hagyva, mert többjátékos.
+$verifyStatusNoPointer A visszajátszás nem hivatkozik pályafájlra.
+$verifyStatusMissingLevel A visszajátszás nem létező pályára mutat.
+$verifyStatusBadLevel A visszajátszás hibás formátumú pályára mutat.
+$verifyStatusFailed A visszajátszás nem oldja meg a hivatkozott pályát.
+$verifyStatusMercyKilled A visszajátszás az utolsó képesség után még %d percig futott.
+$verifyStatusSolved A visszajátszás megoldja a hivatkozott pályát.
 
-$previewLevelAuthor by
-$previewLevelSingleGoal Goal:
-$previewLevelSingleTrophySaved Best:
-$previewLevelSingleTrophySkills Skills:
-$previewLevelMultiIntendedNumPlayers Players:
-$previewReplayPlayer Player:
-$previewReplayFilenameOfReplay Replay:
+$previewLevelAuthor Szerző:
+$previewLevelSingleGoal Cél:
+$previewLevelSingleTrophySaved Legjobb:
+$previewLevelSingleTrophySkills Képességek:
+$previewLevelMultiIntendedNumPlayers Játékosok:
+$previewReplayPlayer Játékos:
+$previewReplayFilenameOfReplay Visszajátszás:
 $previewReplayPointsTo ⟶
-$previewMissingTiles %d missing tiles:
-$previewMissingTilesMoreSee and %d more, see “%s”
+$previewMissingTiles %d hiányzó csempe:
+$previewMissingTilesMoreSee és további %d, lásd: „%s”
 
-$harvestYouSavedThisTime You saved %d lix!
-$harvestReplayAutoSaved Replay autosaved.
-$harvestReplaySaveManuallyAtAll Save replay
-$harvestReplaySaveManuallyToo Save manually
+$harvestYouSavedThisTime Megmentettél %d lixet!
+$harvestReplayAutoSaved Visszajátszás automatikusan mentve.
+$harvestReplaySaveManuallyAtAll Visszajátszás mentése
+$harvestReplaySaveManuallyToo Kézi mentés
 
-$winSearchTitle Level Search
-$winSearchPrompt Search by title, author, or filename in %d levels:
+$winSearchTitle Pályakeresés
+$winSearchPrompt Keresés cím, szerző vagy fájlnév szerint %d pályában:
 
-$repForLevTitle Load replay for “%s”
+$repForLevTitle Visszajátszás betöltése ehhez: „%s”
 
-$outcomeRetryOldLevel Try again:
-$outcomeYouSolvedOldLevel Congratulations! You solved:
-$outcomeAttemptNextLevel Next level:
-$outcomeResolveNextLevel Next level (solved):
-$outcomeAttemptNextUnsolvedLevel Next unsolved level:
-$outcomeExitToSingleBrowser Back to Level Browser
+$outcomeRetryOldLevel Újrapróbálkozás:
+$outcomeYouSolvedOldLevel Gratulálok! Megoldottad:
+$outcomeAttemptNextLevel Következő pálya:
+$outcomeResolveNextLevel Következő pálya (megoldva):
+$outcomeAttemptNextUnsolvedLevel Következő megoldatlan pálya:
+$outcomeExitToSingleBrowser Vissza a pályaböngészőhöz
 
 $outcomeTrophyLixSaved Lix
-$outcomeTrophySkillsUsed Skills
-$outcomeTrophyYourAttempt Your result
-$outcomeTrophyPreviousRecord Record
+$outcomeTrophySkillsUsed Képeségek
+$outcomeTrophyYourAttempt Eredményed
+$outcomeTrophyPreviousRecord Korábbi rekord
 
 // networking lobby
 $winLobbyTitle Network Game|From the main menu, go to the networking lobby.
@@ -477,3 +477,4 @@ $keyboardKeyNumLock NumLock
 $windowAskNameTitle Lix
 $windowAskNameFirst Hello and Welcome!
 $windowAskNameSecond What's your name?
+
